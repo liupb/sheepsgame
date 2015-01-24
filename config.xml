@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.liupb.sheep" version="1.0.0.0">
 
-	<name>sheepsgame</name>
+	<name>sheep</name>
 	<description>sheeps</description>
 	<author>liupb</author>
 
@@ -17,9 +17,6 @@
 	<preference name="fullscreen" value="true" />
 	<gap:config-file platform="ios" parent="UIStatusBarHidden"><true/></gap:config-file>
 	<gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance"><false/></gap:config-file>
-
-	<preference name="deployment-target" value="8.0" />
-	<preference name="android-minSdkVersion" value="21" />
 	<preference name="target-device" value="universal" />
 
 	<!-- Optional splash screen image, e.g.: -->
